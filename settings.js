@@ -10,15 +10,15 @@ global.APIKeys = {
 	'https://api.zeeoneofc.my.id': 'Your Key',
 }
 
-global.namabot = "Bot Store"
+global.namabot = "lutfi Store"
 global.namaowner = "Zeeoneofc"
-global.packname = namabot
-global.author = namaowner
+global.packname = lutfistore
+global.author = lutfiganteng
 global.myweb = "https://s.id/zeeoneofc"
 global.footer_text = "© " + namabot
 global.pp_bot = fs.readFileSync("./image/foto.jpg")
 global.qris = fs.readFileSync("./image/qris.jpg")
-global.owner = ['62887435047326']
+global.owner = ['6289649925248']
 global.pairingNumber = "" //pairing number to install bot 
 global.sessionName = 'session'
 global.background = "https://telegra.ph/file/40342e0085d521cb8b907.jpg" //maks size 50kb agar welcome nya gk lemot
@@ -26,11 +26,11 @@ global.prefa = ['-_-']
 global.grup_only = false //bot hanya bisa di gunakan dalam grup jika true
 global.mess = {
     done: 'Done ✅',
-    wait: '_⌛ Sedang di proses_',
-    admin: '_Fitur Khusus Admin Group_',
-    botNotAdmin: '_Jadikan Bot Sebagai Admin Terlebih Dahulu_',
-    owner: '_Fitur Khusus Owner Bot_',
-    group: '_Fitur Khusus Dalam Group_',
+    wait: '_⌛ Sedang di proses bangsat sabar_',
+    admin: '_Fitur khusus lutfi store doang anj_',
+    botNotAdmin: '_adehh jadiin gua admin dulu lah anjing _',
+    owner: '_cuman lutfi store doang yg boleh_',
+    group: '_cuman lutfi store doang yg bolehp_',
 }
 global.butwel =  [{
    buttonId: '.menu',
@@ -49,8 +49,8 @@ global.help = {
 menu(pushname, salam, mundur, upload, download, totalGb, usedGb, freeGb, ownerName, botName, jam, tanggal, runtime, prefix){
   return `${salam.slice(0,1).toUpperCase() + salam.slice(1)} ${pushname}
 
-*HITUNG MUNDUR IDUL FITRI 🌜*
- ${mundur}
+*SELAMAT DATANG DI GC LUTFI STORE  🌜*
+ ${HALO SOBAT LUTFI STORE}
 
 ╭✄┈┈┈⟬ *STATISTIC* ⟭
 ┆❐ Upload : ${upload}
